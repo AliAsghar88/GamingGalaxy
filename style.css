@@ -80,6 +80,7 @@ nav ul li a:hover {
     position: fixed;
     z-index: 990;
     pointer-events: none;
+    transition: color .3s ease;
 }
 
 #blur-cursor {
