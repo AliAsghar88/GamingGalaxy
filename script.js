@@ -23,7 +23,6 @@ anchors.forEach((anchor) => {
     cursor.style.height = "80px";
     cursor.style.border = "1px solid white";
     cursor.style.backgroundColor = "transparent";
-    cursor.style.transition = "all .2s ease";
   });
 
   anchor.addEventListener("mouseleave", () => {
@@ -32,7 +31,6 @@ anchors.forEach((anchor) => {
     cursor.style.height = "25px";
     cursor.style.border = "none";
     cursor.style.backgroundColor = "hsl(265, 72%, 44%)";
-    cursor.style.transition = "none";
   });
 });
 
